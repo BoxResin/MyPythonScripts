@@ -1,5 +1,11 @@
-# 웹페이지 내용이 바뀌었는지 추적하는 스크립트
-# 첫 번째 Argument를 url로 간주하여 웹페이지의 변화가 감지되었을 경우 알림을 보낸다.
+"""
+웹페이지 내용이 바뀌었는지 추적하는 스크립트
+첫 번째 Argument를 url로 간주하여 웹페이지의 변화가 감지되었을 경우 알림을 보낸다.
+
+사용법
+$ python webpage_tracker.py <URL>
+30분 이후 URL의 웹페이지에 변화가 있으면 Message box를 띄워준다.
+"""
 
 import sys
 import hashlib
